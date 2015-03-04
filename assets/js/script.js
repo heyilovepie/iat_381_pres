@@ -402,6 +402,8 @@ $(function(){
 			return;
 		}
 
+		ttg = 5;
+
 		alarm_counter[current_alarm] = ttg;
 		dialog_p.trigger('hide');
 	});
